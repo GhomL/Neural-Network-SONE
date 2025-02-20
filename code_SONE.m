@@ -2,7 +2,7 @@
 
 % Details on how to set up the input data are described in the SONE
 % function. The function is to transform the data, not applying the
-% algorithm! This code applies the algorithm
+% algorithm! This code applies the algorithm.
 
 % You will need to have AOU as your initial data.
 
