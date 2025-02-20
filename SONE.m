@@ -4,7 +4,7 @@ function data = SONE(time,pres,lat,lon,temp,psal,aou)
 % function data = SONE(time,pres,lat,lon,temp,psal,aou)
 
 % By G. Liniger
-% Aug. 2024
+% Last updated Feb 2025
 % MBARI / liniger@mbari.org
 
 % Bayesian neural network to estimate [NO3] in the Southern Ocean
@@ -27,7 +27,6 @@ function data = SONE(time,pres,lat,lon,temp,psal,aou)
 % 5. temp - temperature  / °C 
 % 6. psal - practical salinity  
 % 7. aou - Apparent Oxyge Utilization
-
 
 % If you have dissolved oxygen and not AOU as an input, suggested AOU
 % calculation from function:
