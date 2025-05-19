@@ -65,7 +65,7 @@ lon2 = cosd(lon - 110);
 
 % Step2. Create data sequence
 data=cat(1,dy,press_corr,lat,lon1,lon2,temp,psal,aou);
-disp('The data is ready and good to be put in the NNs to estiamte Nitrate')
+disp('The data is ready and good to be put in the NNs to estimate Nitrate')
 
 % Your data should be ready! Now go to 'code_SONE' from Step3. to finish
 
