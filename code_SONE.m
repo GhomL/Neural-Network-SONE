@@ -21,16 +21,15 @@ load .../net_1515
 
 % The function is: data = SONE(time,pres,lat,lon,temp,psal,aou)
 % If you have your data in a table, just replace by the row number
-% Example: If your longitude is in row3 in your file '
-% data, just put 'data(3,:)' in the below line
+% Example: If your longitude is in row3 in your file 'data', just put 'data(3,:)' in the below line
 
 % Run your data through the function to transform them
 data = SONE(time,pres,lat,lon,temp,psal,aou);
 
 %% Step3. Now that the data are transformed, put them in the NNs and averaged the NO3 output
 
-% The performance of each NN is described in Liniger et al. (submitted. Aug 2024)
-% For more details, see Liniger et al. (XXXX).
+% The performance of each NN is described in Liniger et al. (2025)
+% For more details, see Liniger et al. (2025).
 
 no3a = net_1010(data);
 no3b = net_1020(data);
