@@ -23,6 +23,11 @@ load .../net_1515
 % If you have your data in a table, just replace by the row number
 % Example: If your longitude is in row3 in your file 'data', just put 'data(3,:)' in the below line
 
+% Or define your data here if you don't want to change the below line 32
+% time = ....
+% pres = ...
+% etc...
+
 % Run your data through the function to transform them
 data = SONE(time,pres,lat,lon,temp,psal,aou);
 
